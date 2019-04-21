@@ -507,10 +507,10 @@ namespace Microsoft.Samples.Kinect.BodyBasics
 
 
                             //RECENTLY ADDED CODE 16/01
-                            using (System.IO.StreamWriter file2 = new System.IO.StreamWriter(@"C:\Users\Spyros\Desktop\test.txt", true))
+                            using (System.IO.StreamWriter file2 = new System.IO.StreamWriter(@"C:\Users\", true))
                             {
 
-                                string what = matlab.Execute("cd C:/Users/Spyros/Desktop"); //CHANGE to location of matlab functions!!!!!
+                                string what = matlab.Execute("cd C:/Users/...."); //CHANGE to location of matlab functions!!!!!
 
                                 //predict movement here
 
