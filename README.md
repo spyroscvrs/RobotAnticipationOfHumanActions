@@ -31,8 +31,6 @@ sudo apt-get install ros-kinetic-universal-robot
 
 4) **Download files from my GIT repository** <br/>
 
-My repository: https://github.com/spyroscvrs/RobotAnticipationOfHumanActions
-
 File 'listener.py' is needed into the Ubuntu machine inside catkin enviroment, into /src folder. <br/>
 
 5) **Download [Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/ide/?view=vs-2017) on Windows Machine** <br/>
