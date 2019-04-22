@@ -9,12 +9,12 @@ One Ubuntu 16.04 LTS machine and a Windows 10 machine is needed.
 
 ### Prerequisites
 
-ROS-kinetic: http://wiki.ros.org/kinetic/Installation/Ubuntu  <br/>
-Catkin workspace: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment  <br/>
-ROS Industrial Universal Robots: https://github.com/ros-industrial/universal_robot <br/>
-Visual Studio 2017: https://docs.microsoft.com/en-us/visualstudio/ide/?view=vs-2017 <br/>
-Xbox Kinect v2 sensor <br/>
-Kinect to PC adaptor <br/>
+* ROS-kinetic: http://wiki.ros.org/kinetic/Installation/Ubuntu  <br/>
+* Catkin workspace: http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment  <br/>
+* ROS Industrial Universal Robots: https://github.com/ros-industrial/universal_robot <br/>
+* Visual Studio 2017: https://docs.microsoft.com/en-us/visualstudio/ide/?view=vs-2017 <br/>
+* Xbox Kinect v2 sensor <br/>
+* Kinect to PC adaptor <br/>
 
 ### SETUP
 
