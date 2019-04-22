@@ -48,7 +48,7 @@ hostname -I
 
 Certain changes are needed to use the application. <br/>
 Open **MainWindow.xaml.cs** using Visual studio or any other text editor.<br/>
-Go to line **200**, change the IP, to the IP of the Ubuntu Machine obtained in step 7. <br/> 
+Go to line **206**, change the IP, to the IP of the Ubuntu Machine obtained in step 7. <br/> 
 
 ### TESTING
 
@@ -95,12 +95,6 @@ python listener.py
 **On Windows Machine side:** <br/> 
 
 Open the BodyBasics-WPF folder and then open the BodyBasics-WPF application using Visual Studio 2017 and click start. 
-
-## Photos
-The photos were obtained in the Advanced Robotics at Queen Mary using the UR5 robot <br/>
-<img src="img/Pic1.jpg" height="30%" width="30%">
-<img src="img/Pic2.jpg" height="30%" width="30%">
-<img src="img/Pic4.jpg" height="30%" width="30%">
 
 
 ## Video
