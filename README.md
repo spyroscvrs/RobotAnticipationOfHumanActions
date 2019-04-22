@@ -99,7 +99,7 @@ Open the MainWindows.xaml.cs application using Visual Studio 2017 and click star
 
 
 ## Photos
-The photos were obtained in the Advanced Robotics at Queen Mary using the UR5 robot
+The photos were obtained in the Advanced Robotics at Queen Mary using the UR5 robot <br/>
 <img src="img/Pic1.jpg" height="30%" width="30%">
 <img src="img/Pic2.jpg" height="30%" width="30%">
 <img src="img/Pic4.jpg" height="30%" width="30%">
