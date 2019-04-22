@@ -35,9 +35,6 @@ My repository: https://github.com/spyroscvrs/RobotAnticipationOfHumanActions
 
 File 'listener.py' is needed into the Ubuntu machine inside catkin enviroment, into /src folder. <br/>
 
-'BodyBasics-WPF' folder and files 'new_workspace_2.mat','predmovement.m','predmovement_2.m','workspace_head.mat' need to be to the Windows Machine.
-IMPORTANT! make sure '*.m', '*.mat' files are on the same directory.
-
 5) **Download [Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/ide/?view=vs-2017) on Windows Machine** <br/>
 
 6) **Connect Xbox Kinect v2 to the Windows Machine using an adaptor** <br/>
@@ -51,9 +48,7 @@ hostname -I
 
 Certain changes are needed to use the application. <br/>
 Open **MainWindow.xaml.cs** using Visual studio or any other text editor.<br/>
-Go to line **200**, change the IP, to the IP of the Ubuntu Machine obtained in step 7. <br/>
-Afterwards, go to line **516** and change the path to the directory that the '*.m', '*.mat' files are saved 
- 
+Go to line **200**, change the IP, to the IP of the Ubuntu Machine obtained in step 7. <br/> 
 
 ### TESTING
 
