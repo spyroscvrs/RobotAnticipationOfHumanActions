@@ -50,35 +50,35 @@ Afterwards, go to line **513** and change the path to the directory that the '*.
 
 The application is ready to run. <br/>
 **On Ubuntu Machine side:** <br/> 
-
-1) Open terminal and run Gazebo simulation
+Make sure for every terminal/shell you are directed to the catkin enviroment. Example: <br/>
+```
+cd catkin_ws
+```
+and then source the setup file for your shell using the command:
 ```
 source devel/setup.bash
 ```
+
+1) Open terminal and run Gazebo simulation
+
 ```
 roslaunch ur_gazebo ur5.launch
 ```
 
 2) Open new terminal for setting up the MoveIt! nodes to allow motion planning
-```
-source devel/setup.bash
-```
+
 ```
 roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true
 ```
 
 3) Open new terminal for starting up RViz with a configuration
-```
-source devel/setup.bash
-```
+
 ```
 roslaunch ur5_moveit_config moveit_rviz.launch config:=true
 ```
 
 4) Open new terminal to run listener node
-```
-source devel/setup.bash
-```
+
 ```
 cd src
 ```
