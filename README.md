@@ -21,7 +21,7 @@ Visual Studio 2017: https://docs.microsoft.com/en-us/visualstudio/ide/?view=vs-2
 2) **Follow instructions to create [catkin workspace](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)** <br/>
 
 3) **Clone [ROS Industrial Universal Robots](https://github.com/ros-industrial/universal_robot) into catkin enviroment created in step 2** <br/>
-If the catkin enviroment is called catkin_ws then follow the instructions <br/>
+
 Open terminal and execute:
 ```
 sudo apt-get install ros-kinetic-universal-robot
@@ -47,15 +47,16 @@ hostname -I
 
 Certain changes are needed to use the application. <br/>
 Open **MainWindow.xaml.cs** using Visual studio or any other text editor.<br/>
-Go to line **197**, change the IP, to the IP of the Ubuntu Machine obtained in step 7. <br/>
-Afterwards, go to line **513** and change the path to the directory that the '*.m', '*.mat' files are saved 
+Go to line **200**, change the IP, to the IP of the Ubuntu Machine obtained in step 7. <br/>
+Afterwards, go to line **516** and change the path to the directory that the '*.m', '*.mat' files are saved 
  
 
 ### TESTING
 
 The application is ready to run. <br/>
 **On Ubuntu Machine side:** <br/> 
-Make sure for every terminal/shell you are directed to the catkin enviroment. Example: <br/>
+Make sure for every terminal/shell you are directed to the catkin enviroment. <br/>
+Example: <br/>
 ```
 cd catkin_ws
 ```
