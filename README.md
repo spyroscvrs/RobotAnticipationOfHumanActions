@@ -31,6 +31,8 @@ sudo apt-get install ros-kinetic-universal-robot
 
 4) **Download files from my GIT repository** <br/>
 
+My repository: https://github.com/spyroscvrs/RobotAnticipationOfHumanActions
+
 File 'listener.py' is needed into the Ubuntu machine inside catkin enviroment, into /src folder. <br/>
 
 'BodyBasics-WPF' folder and files 'new_workspace_2.mat','predmovement.m','predmovement_2.m','workspace_head.mat' need to be to the Windows Machine.
@@ -100,14 +102,9 @@ python listener.py
 Open the MainWindows.xaml.cs application using Visual Studio 2017 and click start. 
 
 
-## Photos
-The photos were obtained in the Advanced Robotics at Queen Mary using the UR5 robot <br/>
-<img src="img/Pic1.jpg" height="30%" width="30%">
-<img src="img/Pic2.jpg" height="30%" width="30%">
-<img src="img/Pic4.jpg" height="30%" width="30%">
-
-
 ## Video
+
+The video was obtained in the Advanced Robotics at Queen Mary using the UR5 robot <br/>
 
 https://www.youtube.com/watch?v=aitVCOc7kYU
 
