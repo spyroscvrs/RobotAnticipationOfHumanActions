@@ -3,7 +3,7 @@
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
 //------------------------------------------------------------------------------
-//Lines of Code: 24-31,41-72, 200-211 , 420-569 and 606
+//Lines of Code: 24-31,41-72, 194-207 , 414-562 and 600
 //Made By Spyridon Couvaras.
 //------------------------------------------------------------------------------
 
@@ -189,14 +189,8 @@ namespace Microsoft.Samples.Kinect.BodyBasics
         /// Initializes a new instance of the MainWindow class.
         /// </summary>
         /// 
-
-
-
-   
-
         public MainWindow()
         {
-
             string root = Directory.GetCurrentDirectory();
             DirectoryInfo di = new DirectoryInfo(root);
 
