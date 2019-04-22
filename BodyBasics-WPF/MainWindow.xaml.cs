@@ -3,6 +3,9 @@
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
 //------------------------------------------------------------------------------
+//Lines of Code: 24-73, 197-202 , 410-437 and 450-559
+//Made By Spyridon Couvaras.
+//------------------------------------------------------------------------------
 
 namespace Microsoft.Samples.Kinect.BodyBasics
 {
@@ -36,7 +39,7 @@ namespace Microsoft.Samples.Kinect.BodyBasics
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
 
-        void OnClick(object sender, RoutedEventArgs e)
+        void OnClick(object sender, RoutedEventArgs e) //click button to start recording
         {
             if (Globals.rec == false) { Record.Foreground = new SolidColorBrush(Colors.Red); }
             else { Record.Foreground = new SolidColorBrush(Colors.Black); }
@@ -47,7 +50,7 @@ namespace Microsoft.Samples.Kinect.BodyBasics
             Debug.WriteLine(Globals.rec);
         }
 
-        void OnClick1(object sender, RoutedEventArgs e)
+        void OnClick1(object sender, RoutedEventArgs e) //click button to trigger hand model
         {
             if (Globals.hands == false) { Hands.Foreground = new SolidColorBrush(Colors.Red); }
             else { Hands.Foreground = new SolidColorBrush(Colors.Black); }
@@ -58,7 +61,7 @@ namespace Microsoft.Samples.Kinect.BodyBasics
             Debug.WriteLine(Globals.hands);
         }
 
-        void OnClick2(object sender, RoutedEventArgs e)
+        void OnClick2(object sender, RoutedEventArgs e) //click button to trigger head model
         {
             if (Globals.head == false) { Head.Foreground = new SolidColorBrush(Colors.Red); }
             else { Head.Foreground = new SolidColorBrush(Colors.Black); }
@@ -440,8 +443,8 @@ namespace Microsoft.Samples.Kinect.BodyBasics
 
 
                         int penIndex = 0;
-                        //  var body=this.bodies[0]; //MUST MOVE IN FRONT QUICK, WE GET THE FIRST BODY ONLY
-                        //the line above needs to be changed to a function that tracks the closest body
+  
+                        
                         Pen drawPen = this.bodyColors[penIndex++];
 
                         //GRAB THE JOINTS YOU WANT TO SAVE
