@@ -48,7 +48,7 @@ hostname -I
 
 Certain changes are needed to use the application. <br/>
 Open **MainWindow.xaml.cs** using Visual studio or any other text editor.<br/>
-Go to line **200**, change the IP, to the IP of the Ubuntu Machine obtained in step 7. <br/> 
+Go to line **206**, change the IP, to the IP of the Ubuntu Machine obtained in step 7. <br/> 
 
 ### TESTING
 
