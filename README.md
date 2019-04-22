@@ -20,7 +20,7 @@ Visual Studio 2017: https://docs.microsoft.com/en-us/visualstudio/ide/?view=vs-2
 
 2) **Follow instructions to create [catkin workspace](http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment)** <br/>
 
-3) **Clone [ROS Industrial Universal Robots](https://github.com/ros-industrial/universal_robot) into catkin enviroment created in step 2** <br/>
+3) **Install [ROS Industrial Universal Robots](https://github.com/ros-industrial/universal_robot) into catkin enviroment created in step 2** <br/>
 
 Open terminal and execute:
 ```
