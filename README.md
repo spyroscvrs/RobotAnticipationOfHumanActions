@@ -24,15 +24,7 @@ Visual Studio 2017: https://docs.microsoft.com/en-us/visualstudio/ide/?view=vs-2
 If the catkin enviroment is called catkin_ws then follow the instructions <br/>
 Open terminal and execute:
 ```
-cd catkin_ws/src
-```
-clone repository by executing:
-```
-git clone https://github.com/ros-industrial/universal_robot.git
-```
-as soon as the repository is cloned execute:
-```
-catkin_make
+sudo apt-get install ros-kinetic-universal-robot
 ```
 
 4) **Download files from my GIT repository** <br/>
