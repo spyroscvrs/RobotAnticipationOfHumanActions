@@ -53,7 +53,7 @@ Afterwards, go to line **516** and change the path to the directory that the '*.
 
 ### TESTING
 
-The application is ready to run. <br/>
+The application is ready to be simulated using Gazebo simulator. <br/>
 **On Ubuntu Machine side:** <br/> 
 Make sure for every terminal/shell you are directed to the catkin enviroment. <br/>
 Example: <br/>
@@ -99,7 +99,7 @@ Open the MainWindows.xaml.cs application using Visual Studio 2017 and click star
 
 
 ## Photos
-
+The photos were obtained in the Advanced Robotics at Queen Mary using the UR5 robot
 <img src="img/Pic1.jpg" height="30%" width="30%">
 <img src="img/Pic2.jpg" height="30%" width="30%">
 <img src="img/Pic4.jpg" height="30%" width="30%">
