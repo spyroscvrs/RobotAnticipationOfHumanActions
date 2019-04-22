@@ -101,7 +101,6 @@ python listener.py
 
 Open the MainWindows.xaml.cs application using Visual Studio 2017 and click start. 
 
-
 ## Video
 
 The video was obtained in the Advanced Robotics at Queen Mary using the UR5 robot <br/>
