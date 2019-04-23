@@ -31,6 +31,8 @@ sudo apt-get install ros-kinetic-universal-robot
 
 4) **Download files from my GIT repository** <br/>
 
+Repository: https://github.com/spyroscvrs/RobotAnticipationOfHumanActions
+
 File 'listener.py' is needed into the Ubuntu machine inside catkin enviroment, into /src folder. <br/>
 
 5) **Download [Visual Studio 2017](https://docs.microsoft.com/en-us/visualstudio/ide/?view=vs-2017) on Windows Machine** <br/>
@@ -94,11 +96,6 @@ python listener.py
 
 Open the BodyBasics-WPF folder and then open the BodyBasics-WPF.sln application using Visual Studio 2017 and click start. 
 
-## Photos
-The photos were obtained in the Advanced Robotics at Queen Mary using the UR5 robot <br/>
-<img src="img/Pic1.jpg" height="30%" width="30%">
-<img src="img/Pic2.jpg" height="30%" width="30%">
-<img src="img/Pic4.jpg" height="30%" width="30%">
 
 ## Video
 
