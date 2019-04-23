@@ -92,7 +92,7 @@ python listener.py
 
 **On Windows Machine side:** <br/> 
 
-Open the BodyBasics-WPF folder and then open the BodyBasics-WPF application using Visual Studio 2017 and click start. 
+Open the BodyBasics-WPF folder and then open the BodyBasics-WPF.sln application using Visual Studio 2017 and click start. 
 
 ## Photos
 The photos were obtained in the Advanced Robotics at Queen Mary using the UR5 robot <br/>
