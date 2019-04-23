@@ -513,10 +513,10 @@ namespace Microsoft.Samples.Kinect.BodyBasics
 
 
                             //RECENTLY ADDED CODE 16/01
-                            using (System.IO.StreamWriter file2 = new System.IO.StreamWriter(@"C:\Users\", true))
-                            {
+                            
+                            
 
-                                //string what = matlab.Execute("cd "+ head.Position.X); //CHANGE to location of matlab functions!!!!!
+                                
 
                                 //predict movement here
 
@@ -535,31 +535,31 @@ namespace Microsoft.Samples.Kinect.BodyBasics
                                 if (a == 0)
                                 {
                                     //file2.WriteLine("LEFT OBJECT;");
-                                    string what3 = matlab.Execute("msg.Data = '0';"); 
+                                    string wht3 = matlab.Execute("msg.Data = '0';"); 
 
  
                                 }
                                 else if (a == 1)
                                 {
              
-                                    string what4 = matlab.Execute("msg.Data = '-1';");
+                                    string wh4 = matlab.Execute("msg.Data = '-1';");
                                    
                                 }
                                 else if (a == -1)
                                 {
                                     //file2.WriteLine("RIGHT OBJECT;");
-                                    string what111 = matlab.Execute("msg.Data = '1';");
+                                    string wh111 = matlab.Execute("msg.Data = '1';");
 
                                 }
+                                //Debug.WriteLine(a);
 
-
-                            }
+                            
 
                             //Debug.WriteLine("New data added");
                             //SENT DATA ACROSS NETWORK
-                            string what5 = matlab.Execute("send(chatpub,msg);");
+                            string wht5 = matlab.Execute("send(chatpub,msg);");
 
-                            //Debug.WriteLine(Globals.counter);
+                                
                         }
 
                         if (body.IsTracked)
